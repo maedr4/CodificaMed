@@ -1,0 +1,15 @@
+[theme]
+base = "light"
+primaryColor = "#0f766e"
+backgroundColor = "#f6f9f8"
+secondaryBackgroundColor = "#e6f0ee"
+textColor = "#1f2933"
+font = "sans serif"
+
+[server]
+headless = true
+# Solo atiende conexiones desde este equipo, no desde otros de la red
+address = "localhost"
+
+[browser]
+gatherUsageStats = false

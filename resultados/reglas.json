@@ -1,0 +1,865 @@
+{
+  "proveedor": "reglas",
+  "modelo": "diccionario + reglas",
+  "negacion": true,
+  "casos": 36,
+  "codigo_completo": {
+    "precision": 0.705,
+    "recall": 1.0,
+    "f1": 0.827,
+    "vp": 55,
+    "fp": 23,
+    "fn": 0
+  },
+  "categoria_3_caracteres": {
+    "precision": 0.724,
+    "recall": 1.0,
+    "f1": 0.84
+  },
+  "errores_negacion": 0,
+  "hallazgos_negados": 22,
+  "segundos_promedio": 0.0,
+  "casos_con_error": 0,
+  "detalle": [
+    {
+      "id": "caso01",
+      "esperados": [
+        "E11.9",
+        "I10"
+      ],
+      "sugeridos": [
+        {
+          "codigo": "I10",
+          "evidencia": "HTA"
+        },
+        {
+          "codigo": "E11.9",
+          "evidencia": "DM2"
+        }
+      ],
+      "faltantes": [],
+      "sobrantes": [],
+      "negados_sugeridos": [],
+      "segundos": 0.01,
+      "error": ""
+    },
+    {
+      "id": "caso02",
+      "esperados": [
+        "N39.0"
+      ],
+      "sugeridos": [
+        {
+          "codigo": "R50.9",
+          "evidencia": "fiebre"
+        },
+        {
+          "codigo": "N39.0",
+          "evidencia": "IVU"
+        }
+      ],
+      "faltantes": [],
+      "sobrantes": [
+        "R50.9"
+      ],
+      "negados_sugeridos": [],
+      "segundos": 0.0,
+      "error": ""
+    },
+    {
+      "id": "caso03",
+      "esperados": [
+        "J44.1"
+      ],
+      "sugeridos": [
+        {
+          "codigo": "J44.9",
+          "evidencia": "EPOC"
+        },
+        {
+          "codigo": "R06.0",
+          "evidencia": "disnea"
+        },
+        {
+          "codigo": "J44.1",
+          "evidencia": "EPOC exacerbado"
+        }
+      ],
+      "faltantes": [],
+      "sobrantes": [
+        "J44.9",
+        "R06.0"
+      ],
+      "negados_sugeridos": [],
+      "segundos": 0.01,
+      "error": ""
+    },
+    {
+      "id": "caso04",
+      "esperados": [
+        "J00"
+      ],
+      "sugeridos": [
+        {
+          "codigo": "R05",
+          "evidencia": "tos"
+        },
+        {
+          "codigo": "R50.9",
+          "evidencia": "fiebre"
+        },
+        {
+          "codigo": "J00",
+          "evidencia": "rinofaringitis aguda"
+        }
+      ],
+      "faltantes": [],
+      "sobrantes": [
+        "R05",
+        "R50.9"
+      ],
+      "negados_sugeridos": [],
+      "segundos": 0.0,
+      "error": ""
+    },
+    {
+      "id": "caso05",
+      "esperados": [
+        "K29.5"
+      ],
+      "sugeridos": [
+        {
+          "codigo": "R10.4",
+          "evidencia": "dolor abd"
+        },
+        {
+          "codigo": "K29.5",
+          "evidencia": "gastritis crónica"
+        }
+      ],
+      "faltantes": [],
+      "sobrantes": [
+        "R10.4"
+      ],
+      "negados_sugeridos": [],
+      "segundos": 0.01,
+      "error": ""
+    },
+    {
+      "id": "caso06",
+      "esperados": [
+        "E78.5",
+        "F17.2",
+        "I21.1"
+      ],
+      "sugeridos": [
+        {
+          "codigo": "R07.4",
+          "evidencia": "dolor torácico"
+        },
+        {
+          "codigo": "I21.1",
+          "evidencia": "IAM inferior"
+        },
+        {
+          "codigo": "F17.2",
+          "evidencia": "Tabaquismo"
+        },
+        {
+          "codigo": "E78.5",
+          "evidencia": "dislipidemia"
+        }
+      ],
+      "faltantes": [],
+      "sobrantes": [
+        "R07.4"
+      ],
+      "negados_sugeridos": [],
+      "segundos": 0.01,
+      "error": ""
+    },
+    {
+      "id": "caso07",
+      "esperados": [
+        "O14.9"
+      ],
+      "sugeridos": [
+        {
+          "codigo": "R51",
+          "evidencia": "cefalea"
+        },
+        {
+          "codigo": "O14.9",
+          "evidencia": "preeclampsia"
+        }
+      ],
+      "faltantes": [],
+      "sobrantes": [
+        "R51"
+      ],
+      "negados_sugeridos": [],
+      "segundos": 0.0,
+      "error": ""
+    },
+    {
+      "id": "caso08",
+      "esperados": [
+        "I48.9",
+        "I50.9"
+      ],
+      "sugeridos": [
+        {
+          "codigo": "I48.9",
+          "evidencia": "FA"
+        },
+        {
+          "codigo": "I50.9",
+          "evidencia": "insuficiencia cardiaca"
+        },
+        {
+          "codigo": "R60.0",
+          "evidencia": "edema"
+        }
+      ],
+      "faltantes": [],
+      "sobrantes": [
+        "R60.0"
+      ],
+      "negados_sugeridos": [],
+      "segundos": 0.0,
+      "error": ""
+    },
+    {
+      "id": "caso09",
+      "esperados": [
+        "M54.5"
+      ],
+      "sugeridos": [
+        {
+          "codigo": "M54.5",
+          "evidencia": "lumbalgia mecánica"
+        }
+      ],
+      "faltantes": [],
+      "sobrantes": [],
+      "negados_sugeridos": [],
+      "segundos": 0.0,
+      "error": ""
+    },
+    {
+      "id": "caso10",
+      "esperados": [
+        "D50.9",
+        "E11.2",
+        "N18.4"
+      ],
+      "sugeridos": [
+        {
+          "codigo": "N18.4",
+          "evidencia": "ERC estadio 4"
+        },
+        {
+          "codigo": "E11.2",
+          "evidencia": "nefropatía diabética"
+        },
+        {
+          "codigo": "E11.9",
+          "evidencia": "DM2"
+        },
+        {
+          "codigo": "D50.9",
+          "evidencia": "anemia ferropénica"
+        }
+      ],
+      "faltantes": [],
+      "sobrantes": [
+        "E11.9"
+      ],
+      "negados_sugeridos": [],
+      "segundos": 0.01,
+      "error": ""
+    },
+    {
+      "id": "caso11",
+      "esperados": [
+        "E03.9",
+        "F41.1"
+      ],
+      "sugeridos": [
+        {
+          "codigo": "E03.9",
+          "evidencia": "hipotiroidismo"
+        },
+        {
+          "codigo": "F41.1",
+          "evidencia": "trastorno de ansiedad generalizada"
+        }
+      ],
+      "faltantes": [],
+      "sobrantes": [],
+      "negados_sugeridos": [],
+      "segundos": 0.01,
+      "error": ""
+    },
+    {
+      "id": "caso12",
+      "esperados": [
+        "K35.8"
+      ],
+      "sugeridos": [
+        {
+          "codigo": "R11",
+          "evidencia": "náuseas"
+        },
+        {
+          "codigo": "K35.8",
+          "evidencia": "apendicitis aguda"
+        }
+      ],
+      "faltantes": [],
+      "sobrantes": [
+        "R11"
+      ],
+      "negados_sugeridos": [],
+      "segundos": 0.01,
+      "error": ""
+    },
+    {
+      "id": "caso13",
+      "esperados": [
+        "I10",
+        "I63.9"
+      ],
+      "sugeridos": [
+        {
+          "codigo": "I63.9",
+          "evidencia": "infarto cerebral"
+        },
+        {
+          "codigo": "I10",
+          "evidencia": "hipertencion arterial"
+        }
+      ],
+      "faltantes": [],
+      "sobrantes": [],
+      "negados_sugeridos": [],
+      "segundos": 0.01,
+      "error": ""
+    },
+    {
+      "id": "caso14",
+      "esperados": [
+        "A90"
+      ],
+      "sugeridos": [
+        {
+          "codigo": "R50.9",
+          "evidencia": "fiebre"
+        },
+        {
+          "codigo": "A90",
+          "evidencia": "dengue"
+        }
+      ],
+      "faltantes": [],
+      "sobrantes": [
+        "R50.9"
+      ],
+      "negados_sugeridos": [],
+      "segundos": 0.0,
+      "error": ""
+    },
+    {
+      "id": "caso15",
+      "esperados": [
+        "E66.9",
+        "M17.9"
+      ],
+      "sugeridos": [
+        {
+          "codigo": "M17.9",
+          "evidencia": "gonartrosis"
+        },
+        {
+          "codigo": "E66.9",
+          "evidencia": "Obesidad"
+        }
+      ],
+      "faltantes": [],
+      "sobrantes": [],
+      "negados_sugeridos": [],
+      "segundos": 0.01,
+      "error": ""
+    },
+    {
+      "id": "caso16",
+      "esperados": [
+        "Z00.0"
+      ],
+      "sugeridos": [
+        {
+          "codigo": "Z00.0",
+          "evidencia": "chequeo general"
+        }
+      ],
+      "faltantes": [],
+      "sobrantes": [],
+      "negados_sugeridos": [],
+      "segundos": 0.0,
+      "error": ""
+    },
+    {
+      "id": "caso17",
+      "esperados": [
+        "J21.9"
+      ],
+      "sugeridos": [
+        {
+          "codigo": "J21.9",
+          "evidencia": "bronquiolitis aguda"
+        }
+      ],
+      "faltantes": [],
+      "sobrantes": [],
+      "negados_sugeridos": [],
+      "segundos": 0.0,
+      "error": ""
+    },
+    {
+      "id": "caso18",
+      "esperados": [
+        "F10.2",
+        "K70.3"
+      ],
+      "sugeridos": [
+        {
+          "codigo": "R17",
+          "evidencia": "ictericia"
+        },
+        {
+          "codigo": "K70.3",
+          "evidencia": "cirrosis hepática alcohólica"
+        },
+        {
+          "codigo": "F10.2",
+          "evidencia": "dependencia al alcohol"
+        }
+      ],
+      "faltantes": [],
+      "sobrantes": [
+        "R17"
+      ],
+      "negados_sugeridos": [],
+      "segundos": 0.01,
+      "error": ""
+    },
+    {
+      "id": "caso19",
+      "esperados": [
+        "G43.0"
+      ],
+      "sugeridos": [
+        {
+          "codigo": "R51",
+          "evidencia": "cefalea"
+        },
+        {
+          "codigo": "R11",
+          "evidencia": "náuseas"
+        },
+        {
+          "codigo": "G43.0",
+          "evidencia": "migraña sin aura"
+        }
+      ],
+      "faltantes": [],
+      "sobrantes": [
+        "R11",
+        "R51"
+      ],
+      "negados_sugeridos": [],
+      "segundos": 0.0,
+      "error": ""
+    },
+    {
+      "id": "caso20",
+      "esperados": [
+        "J18.9",
+        "J44.9"
+      ],
+      "sugeridos": [
+        {
+          "codigo": "R05",
+          "evidencia": "tos"
+        },
+        {
+          "codigo": "R50.9",
+          "evidencia": "fiebre"
+        },
+        {
+          "codigo": "J18.9",
+          "evidencia": "neumonia adquirida en la comunidad"
+        },
+        {
+          "codigo": "J44.9",
+          "evidencia": "EPOC"
+        }
+      ],
+      "faltantes": [],
+      "sobrantes": [
+        "R05",
+        "R50.9"
+      ],
+      "negados_sugeridos": [],
+      "segundos": 0.01,
+      "error": ""
+    },
+    {
+      "id": "caso21",
+      "esperados": [
+        "I10",
+        "M10.9"
+      ],
+      "sugeridos": [
+        {
+          "codigo": "M10.9",
+          "evidencia": "gota"
+        },
+        {
+          "codigo": "I10",
+          "evidencia": "HTA"
+        }
+      ],
+      "faltantes": [],
+      "sobrantes": [],
+      "negados_sugeridos": [],
+      "segundos": 0.0,
+      "error": ""
+    },
+    {
+      "id": "caso22",
+      "esperados": [
+        "U07.1"
+      ],
+      "sugeridos": [
+        {
+          "codigo": "U07.1",
+          "evidencia": "SARS-CoV-2"
+        },
+        {
+          "codigo": "R05",
+          "evidencia": "tos"
+        },
+        {
+          "codigo": "R50.9",
+          "evidencia": "fiebre"
+        }
+      ],
+      "faltantes": [],
+      "sobrantes": [
+        "R05",
+        "R50.9"
+      ],
+      "negados_sugeridos": [],
+      "segundos": 0.0,
+      "error": ""
+    },
+    {
+      "id": "caso23",
+      "esperados": [
+        "K80.0"
+      ],
+      "sugeridos": [
+        {
+          "codigo": "R50.9",
+          "evidencia": "fiebre"
+        },
+        {
+          "codigo": "K80.0",
+          "evidencia": "colecistitis aguda litiásica"
+        }
+      ],
+      "faltantes": [],
+      "sobrantes": [
+        "R50.9"
+      ],
+      "negados_sugeridos": [],
+      "segundos": 0.01,
+      "error": ""
+    },
+    {
+      "id": "caso24",
+      "esperados": [
+        "E03.9",
+        "G30.9",
+        "M81.9"
+      ],
+      "sugeridos": [
+        {
+          "codigo": "G30.9",
+          "evidencia": "enfermedad de Alzheimer"
+        },
+        {
+          "codigo": "E03.9",
+          "evidencia": "hipotiroidismo"
+        },
+        {
+          "codigo": "M81.9",
+          "evidencia": "osteoporosis"
+        }
+      ],
+      "faltantes": [],
+      "sobrantes": [],
+      "negados_sugeridos": [],
+      "segundos": 0.01,
+      "error": ""
+    },
+    {
+      "id": "caso25",
+      "esperados": [
+        "H66.9"
+      ],
+      "sugeridos": [
+        {
+          "codigo": "R50.9",
+          "evidencia": "fiebre"
+        },
+        {
+          "codigo": "H66.9",
+          "evidencia": "otitis media aguda"
+        }
+      ],
+      "faltantes": [],
+      "sobrantes": [
+        "R50.9"
+      ],
+      "negados_sugeridos": [],
+      "segundos": 0.0,
+      "error": ""
+    },
+    {
+      "id": "caso26",
+      "esperados": [
+        "I80.2"
+      ],
+      "sugeridos": [
+        {
+          "codigo": "I80.2",
+          "evidencia": "TVP"
+        }
+      ],
+      "faltantes": [],
+      "sobrantes": [],
+      "negados_sugeridos": [],
+      "segundos": 0.01,
+      "error": ""
+    },
+    {
+      "id": "caso27",
+      "esperados": [
+        "S93.4"
+      ],
+      "sugeridos": [
+        {
+          "codigo": "S93.4",
+          "evidencia": "esguince de tobillo"
+        }
+      ],
+      "faltantes": [],
+      "sobrantes": [],
+      "negados_sugeridos": [],
+      "segundos": 0.0,
+      "error": ""
+    },
+    {
+      "id": "caso28",
+      "esperados": [
+        "D25.9",
+        "D50.0"
+      ],
+      "sugeridos": [
+        {
+          "codigo": "D50.0",
+          "evidencia": "anemia ferropénica por pérdida crónica de sangre"
+        },
+        {
+          "codigo": "D25.9",
+          "evidencia": "mioma uterino"
+        }
+      ],
+      "faltantes": [],
+      "sobrantes": [],
+      "negados_sugeridos": [],
+      "segundos": 0.01,
+      "error": ""
+    },
+    {
+      "id": "caso29",
+      "esperados": [
+        "E11.9"
+      ],
+      "sugeridos": [
+        {
+          "codigo": "E11.9",
+          "evidencia": "diabetis mellitus tipo 2"
+        }
+      ],
+      "faltantes": [],
+      "sobrantes": [],
+      "negados_sugeridos": [],
+      "segundos": 0.0,
+      "error": ""
+    },
+    {
+      "id": "caso30",
+      "esperados": [
+        "E46",
+        "E86",
+        "L89.9"
+      ],
+      "sugeridos": [
+        {
+          "codigo": "L89.9",
+          "evidencia": "úlcera por presión"
+        },
+        {
+          "codigo": "E46",
+          "evidencia": "desnutrición"
+        },
+        {
+          "codigo": "E86",
+          "evidencia": "deshidratación"
+        }
+      ],
+      "faltantes": [],
+      "sobrantes": [],
+      "negados_sugeridos": [],
+      "segundos": 0.0,
+      "error": ""
+    },
+    {
+      "id": "caso31",
+      "esperados": [
+        "N40"
+      ],
+      "sugeridos": [
+        {
+          "codigo": "N40",
+          "evidencia": "HPB"
+        }
+      ],
+      "faltantes": [],
+      "sobrantes": [],
+      "negados_sugeridos": [],
+      "segundos": 0.0,
+      "error": ""
+    },
+    {
+      "id": "caso32",
+      "esperados": [
+        "G40.9"
+      ],
+      "sugeridos": [
+        {
+          "codigo": "R56.8",
+          "evidencia": "crisis convulsiva"
+        },
+        {
+          "codigo": "G40.9",
+          "evidencia": "epilepsia"
+        }
+      ],
+      "faltantes": [],
+      "sobrantes": [
+        "R56.8"
+      ],
+      "negados_sugeridos": [],
+      "segundos": 0.0,
+      "error": ""
+    },
+    {
+      "id": "caso33",
+      "esperados": [
+        "M06.9"
+      ],
+      "sugeridos": [
+        {
+          "codigo": "M06.9",
+          "evidencia": "artritis reumatoide"
+        }
+      ],
+      "faltantes": [],
+      "sobrantes": [],
+      "negados_sugeridos": [],
+      "segundos": 0.0,
+      "error": ""
+    },
+    {
+      "id": "caso34",
+      "esperados": [
+        "K21.9",
+        "K76.0"
+      ],
+      "sugeridos": [
+        {
+          "codigo": "K21.9",
+          "evidencia": "ERGE"
+        },
+        {
+          "codigo": "K76.0",
+          "evidencia": "hígado graso"
+        }
+      ],
+      "faltantes": [],
+      "sobrantes": [],
+      "negados_sugeridos": [],
+      "segundos": 0.0,
+      "error": ""
+    },
+    {
+      "id": "caso35",
+      "esperados": [
+        "I25.1",
+        "I50.0"
+      ],
+      "sugeridos": [
+        {
+          "codigo": "R06.0",
+          "evidencia": "disnea"
+        },
+        {
+          "codigo": "I50.0",
+          "evidencia": "insuficiencia cardiaca congestiva"
+        },
+        {
+          "codigo": "I25.1",
+          "evidencia": "cardiopatía isquémica"
+        }
+      ],
+      "faltantes": [],
+      "sobrantes": [
+        "R06.0"
+      ],
+      "negados_sugeridos": [],
+      "segundos": 0.01,
+      "error": ""
+    },
+    {
+      "id": "caso36",
+      "esperados": [
+        "O20.0"
+      ],
+      "sugeridos": [
+        {
+          "codigo": "O20.0",
+          "evidencia": "amenaza de aborto"
+        }
+      ],
+      "faltantes": [],
+      "sobrantes": [],
+      "negados_sugeridos": [],
+      "segundos": 0.0,
+      "error": ""
+    }
+  ]
+}

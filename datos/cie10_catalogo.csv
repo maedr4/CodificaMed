@@ -1,0 +1,149 @@
+codigo;descripcion;sinonimos
+A09;Diarrea y gastroenteritis de presunto origen infeccioso;gastroenteritis aguda|GEA|diarrea aguda|diarrea|enfermedad diarreica aguda
+A15.0;Tuberculosis del pulmón confirmada por hallazgo microscópico del bacilo en esputo;tuberculosis pulmonar|TB pulmonar
+A41.9;Sepsis no especificada;sepsis|septicemia|choque séptico
+A90;Fiebre del dengue [dengue clásico];dengue|dengue clásico|fiebre del dengue
+B18.2;Hepatitis viral tipo C crónica;hepatitis C|hepatitis C crónica
+B24;Enfermedad por virus de la inmunodeficiencia humana [VIH] sin otra especificación;VIH|infección por VIH
+B37.3;Candidiasis de la vulva y de la vagina;candidiasis vaginal|candidiasis vulvovaginal
+U07.1;COVID-19 virus identificado;covid-19|covid|infección por SARS-CoV-2|SARS-CoV-2
+C16.9;Tumor maligno del estómago parte no especificada;cáncer gástrico|adenocarcinoma gástrico
+C18.9;Tumor maligno del colon parte no especificada;cáncer de colon|adenocarcinoma de colon
+C34.9;Tumor maligno de los bronquios o del pulmón parte no especificada;cáncer de pulmón|carcinoma pulmonar
+C50.9;Tumor maligno de la mama parte no especificada;cáncer de mama|carcinoma de mama
+C61;Tumor maligno de la próstata;cáncer de próstata|adenocarcinoma de próstata
+D25.9;Leiomioma del útero sin otra especificación;mioma uterino|miomatosis uterina|leiomioma uterino
+D50.0;Anemia por deficiencia de hierro secundaria a pérdida de sangre (crónica);anemia ferropénica por pérdida crónica de sangre|anemia por sangrado crónico
+D50.9;Anemia por deficiencia de hierro sin otra especificación;anemia ferropénica|anemia por deficiencia de hierro
+D64.9;Anemia de tipo no especificado;anemia
+D69.6;Trombocitopenia no especificada;trombocitopenia|plaquetopenia
+E03.9;Hipotiroidismo no especificado;hipotiroidismo
+E05.9;Tirotoxicosis no especificada;hipertiroidismo|tirotoxicosis
+E10.9;Diabetes mellitus insulinodependiente sin mención de complicación;DM1|diabetes mellitus tipo 1|diabetes tipo 1
+E11.2;Diabetes mellitus no insulinodependiente con complicaciones renales;nefropatía diabética
+E11.9;Diabetes mellitus no insulinodependiente sin mención de complicación;DM2|diabetes mellitus tipo 2|diabetes tipo 2
+E46;Desnutrición proteicocalórica no especificada;desnutrición|desnutrición proteicocalórica
+E55.9;Deficiencia de vitamina D no especificada;déficit de vitamina D|deficiencia de vitamina D
+E66.9;Obesidad no especificada;obesidad
+E78.0;Hipercolesterolemia pura;hipercolesterolemia
+E78.5;Hiperlipidemia no especificada;dislipidemia|hiperlipidemia
+E86;Depleción del volumen;deshidratación
+E87.1;Hipoosmolaridad e hiponatremia;hiponatremia
+E87.6;Hipopotasemia;hipopotasemia|hipokalemia
+F03;Demencia no especificada;demencia
+F10.2;Trastornos mentales y del comportamiento debidos al uso de alcohol síndrome de dependencia;dependencia al alcohol|dependencia alcohólica|alcoholismo
+F17.2;Trastornos mentales y del comportamiento debidos al uso de tabaco síndrome de dependencia;tabaquismo|dependencia al tabaco
+F32.9;Episodio depresivo no especificado;depresión|episodio depresivo
+F41.1;Trastorno de ansiedad generalizada;trastorno de ansiedad generalizada|ansiedad generalizada
+F41.9;Trastorno de ansiedad no especificado;ansiedad|trastorno de ansiedad
+G20;Enfermedad de Parkinson;parkinson|enfermedad de parkinson
+G30.9;Enfermedad de Alzheimer no especificada;alzheimer|enfermedad de alzheimer
+G40.9;Epilepsia tipo no especificado;epilepsia
+G43.0;Migraña sin aura [migraña común];migraña sin aura
+G43.9;Migraña no especificada;migraña
+G45.9;Isquemia cerebral transitoria sin otra especificación;AIT|accidente isquémico transitorio
+G56.0;Síndrome del túnel carpiano;túnel carpiano|síndrome del túnel carpiano
+G62.9;Polineuropatía no especificada;polineuropatía|neuropatía periférica
+H10.9;Conjuntivitis no especificada;conjuntivitis
+H25.9;Catarata senil no especificada;catarata
+H40.9;Glaucoma no especificado;glaucoma
+H66.9;Otitis media no especificada;otitis media|otitis media aguda
+H70.9;Mastoiditis no especificada;mastoiditis
+I10;Hipertensión esencial (primaria);HTA|hipertensión arterial|hipertensión esencial|hipertensión arterial sistémica
+I11.9;Enfermedad cardíaca hipertensiva sin insuficiencia cardíaca;cardiopatía hipertensiva
+I20.9;Angina de pecho no especificada;angina|angina de pecho
+I21.1;Infarto transmural agudo del miocardio de la pared inferior;infarto agudo de miocardio inferior|IAM inferior|infarto de cara inferior
+I21.9;Infarto agudo del miocardio sin otra especificación;IAM|infarto agudo de miocardio|infarto agudo del miocardio
+I25.1;Enfermedad aterosclerótica del corazón;cardiopatía isquémica|enfermedad coronaria
+I26.9;Embolia pulmonar sin mención de corazón pulmonar agudo;TEP|tromboembolia pulmonar|embolia pulmonar
+I48.9;Fibrilación y aleteo auricular no especificado;FA|fibrilación auricular|flutter auricular
+I50.0;Insuficiencia cardíaca congestiva;insuficiencia cardiaca congestiva|ICC
+I50.9;Insuficiencia cardíaca no especificada;insuficiencia cardiaca
+I61.9;Hemorragia intraencefálica no especificada;ACV hemorrágico|hemorragia intracerebral|hemorragia intraparenquimatosa
+I63.9;Infarto cerebral no especificado;infarto cerebral|ACV isquémico|ictus isquémico
+I64;Accidente vascular encefálico agudo no especificado como hemorrágico o isquémico;ACV|accidente cerebrovascular|ictus
+I80.2;Flebitis y tromboflebitis de otros vasos profundos de los miembros inferiores;TVP|trombosis venosa profunda
+I83.9;Venas varicosas de los miembros inferiores sin úlcera ni inflamación;várices|venas varicosas|insuficiencia venosa
+I95.9;Hipotensión no especificada;hipotensión|hipotensión arterial
+J00;Rinofaringitis aguda [resfriado común];rinofaringitis|rinofaringitis aguda|resfriado común
+J01.9;Sinusitis aguda no especificada;sinusitis|sinusitis aguda
+J02.9;Faringitis aguda no especificada;faringitis|faringitis aguda
+J03.9;Amigdalitis aguda no especificada;amigdalitis|amigdalitis aguda
+J06.9;Infección aguda de las vías respiratorias superiores no especificada;infección respiratoria alta|infección de vías respiratorias superiores
+J11.1;Influenza con otras manifestaciones respiratorias virus no identificado;influenza|gripe
+J18.9;Neumonía no especificada;neumonía|NAC|neumonía adquirida en la comunidad
+J20.9;Bronquitis aguda no especificada;bronquitis|bronquitis aguda
+J21.9;Bronquiolitis aguda no especificada;bronquiolitis|bronquiolitis aguda
+J44.1;Enfermedad pulmonar obstructiva crónica con exacerbación aguda no especificada;EPOC exacerbado|EPOC exacerbada|exacerbación de EPOC|EPOC descompensado
+J44.9;Enfermedad pulmonar obstructiva crónica no especificada;EPOC
+J45.9;Asma no especificada;asma|asma bronquial
+J90;Derrame pleural no clasificado en otra parte;derrame pleural
+J93.9;Neumotórax no especificado;neumotórax
+J96.0;Insuficiencia respiratoria aguda;insuficiencia respiratoria aguda
+K20;Esofagitis;esofagitis
+K21.9;Enfermedad del reflujo gastroesofágico sin esofagitis;ERGE|reflujo gastroesofágico|enfermedad por reflujo gastroesofágico
+K25.9;Úlcera gástrica no especificada como aguda ni crónica sin hemorragia ni perforación;úlcera gástrica|úlcera péptica
+K29.5;Gastritis crónica no especificada;gastritis crónica
+K29.7;Gastritis no especificada;gastritis
+K35.8;Apendicitis aguda otra y la no especificada;apendicitis|apendicitis aguda
+K40.9;Hernia inguinal unilateral o no especificada sin obstrucción ni gangrena;hernia inguinal
+K52.9;Colitis y gastroenteritis no infecciosas no especificadas;colitis
+K57.3;Enfermedad diverticular del intestino grueso sin perforación ni absceso;diverticulosis|enfermedad diverticular
+K59.0;Constipación;estreñimiento|constipación
+K70.3;Cirrosis hepática alcohólica;cirrosis hepática alcohólica|cirrosis alcohólica
+K74.6;Otras cirrosis del hígado y las no especificadas;cirrosis|cirrosis hepática
+K76.0;Degeneración grasa del hígado no clasificada en otra parte;hígado graso|esteatosis hepática
+K80.0;Cálculo de la vesícula biliar con colecistitis aguda;colecistitis aguda litiásica|colecistitis aguda calculosa
+K80.2;Cálculo de la vesícula biliar sin colecistitis;colelitiasis|litiasis vesicular
+K81.0;Colecistitis aguda;colecistitis aguda
+K85.9;Pancreatitis aguda no especificada;pancreatitis|pancreatitis aguda
+K92.2;Hemorragia gastrointestinal no especificada;hemorragia digestiva|sangrado digestivo
+L03.9;Celulitis de sitio no especificado;celulitis
+L20.9;Dermatitis atópica no especificada;dermatitis atópica
+L40.9;Psoriasis no especificada;psoriasis
+L89.9;Úlcera de decúbito y por presión de sitio no especificado;úlcera por presión|úlcera de decúbito|escara
+M06.9;Artritis reumatoide no especificada;artritis reumatoide
+M10.9;Gota no especificada;gota|artritis gotosa
+M16.9;Coxartrosis no especificada;coxartrosis|artrosis de cadera
+M17.9;Gonartrosis no especificada;gonartrosis|artrosis de rodilla
+M32.9;Lupus eritematoso sistémico sin otra especificación;lupus|lupus eritematoso sistémico
+M54.2;Cervicalgia;cervicalgia
+M54.5;Lumbago no especificado;lumbalgia|lumbago|lumbalgia mecánica
+M79.7;Fibromialgia;fibromialgia
+M81.9;Osteoporosis no especificada;osteoporosis
+N10;Nefritis tubulointersticial aguda;pielonefritis|pielonefritis aguda
+N17.9;Insuficiencia renal aguda no especificada;insuficiencia renal aguda|lesión renal aguda
+N18.4;Enfermedad renal crónica etapa 4;ERC estadio 4|enfermedad renal crónica estadio 4
+N18.9;Enfermedad renal crónica no especificada;ERC|enfermedad renal crónica|insuficiencia renal crónica
+N20.0;Cálculo del riñón;litiasis renal|nefrolitiasis|cálculo renal
+N39.0;Infección de vías urinarias sitio no especificado;IVU|ITU|infección de vías urinarias|infección urinaria|infección del tracto urinario
+N40;Hiperplasia de la próstata;HPB|hiperplasia prostática|hiperplasia prostática benigna
+N76.0;Vaginitis aguda;vaginitis
+N95.1;Estados menopáusicos y climatéricos femeninos;menopausia|climaterio
+O14.9;Preeclampsia no especificada;preeclampsia
+O20.0;Amenaza de aborto;amenaza de aborto
+O24.4;Diabetes mellitus que se origina con el embarazo;diabetes gestacional
+O80;Parto único espontáneo;parto eutócico|parto normal
+P59.9;Ictericia neonatal no especificada;ictericia neonatal
+R05;Tos;tos
+R06.0;Disnea;disnea
+R07.4;Dolor en el pecho no especificado;dolor torácico|dolor en el pecho
+R10.4;Otros dolores abdominales y los no especificados;dolor abdominal
+R11;Náusea y vómito;náuseas|vómito|vómitos
+R17;Ictericia no especificada;ictericia
+R31;Hematuria no especificada;hematuria
+R42;Mareo y desvanecimiento;mareo|desvanecimiento
+R50.9;Fiebre no especificada;fiebre|alza térmica
+R51;Cefalea;cefalea|dolor de cabeza
+R55;Síncope y colapso;síncope
+R56.8;Otras convulsiones y las no especificadas;convulsiones|crisis convulsiva
+R60.0;Edema localizado;edema
+R73.9;Hiperglucemia no especificada;hiperglucemia
+S06.0;Concusión;conmoción cerebral|traumatismo craneoencefálico leve
+S52.5;Fractura de la epífisis inferior del radio;fractura de radio distal|fractura de Colles
+S72.0;Fractura del cuello del fémur;fractura de cadera|fractura de cuello femoral
+S82.6;Fractura del maléolo externo;fractura de maléolo externo|fractura de peroné distal
+S93.4;Esguince y torcedura del tobillo;esguince de tobillo|torcedura de tobillo
+T78.4;Alergia no especificada;alergia|reacción alérgica
+Z00.0;Examen médico general;chequeo general|control de salud|examen médico general
+Z34.9;Supervisión de embarazo normal no especificado;control prenatal
